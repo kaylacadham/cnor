@@ -1,0 +1,131 @@
+/*Reset Styles*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****MAIN STYLES****/
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #1a1a1a;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.25em;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.container {
+    margin: 1rem;
+    border-radius: 20px;
+    width: 425px;
+    box-sizing: border-box;
+}
+
+#message-container {
+    background-color: #e4e4e4;
+    flex-grow: 1;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+#countdown-container {
+    margin-top: 2rem;
+    line-height: 2;
+    flex-basis: 0;
+    font-size: 1.5rem;
+}
+
+#button-container {
+    flex-grow: 0;
+}
+
+/*BUTTON STYLES*/
+#button1 {
+    background-color: #EF4848;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    padding: 1.5rem 2rem;
+    font-size: 1.75rem;
+    width: 100%;
+}
+
+#button1:hover {
+    background-color: #CA2323;
+    cursor:pointer;
+}
+
+#button1:active {
+    background-color: #CA2323;
+}
+
+

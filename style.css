@@ -83,7 +83,7 @@ main {
 .container {
     margin: 1rem;
     border-radius: 20px;
-    width: 425px;
+    max-width: 425px;
     box-sizing: border-box;
 }
 

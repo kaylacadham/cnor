@@ -1,8 +1,8 @@
 //GLOBAL
 
 //Set the countdown dates
-var connorsBirthday = new Date("Jun 3, 2024 00:00:00").getTime();
-var endBirthday = new Date("Jun 4, 2024 00:00:00").getTime();
+var connorsBirthday = new Date("Jun 3, 2025 00:00:00").getTime();
+var endBirthday = new Date("Jun 4, 2025 00:00:00").getTime();
 
 //track how many times button has been clicked
 var timesClicked = 0;
